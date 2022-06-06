@@ -7,7 +7,11 @@
     <title>Harim Gucci</title>
     <script src="selection_box.js" defer></script>
     <script src="color_controller.js" defer></script>
+    <script src="function.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+    
     
     
 </head>
@@ -46,7 +50,9 @@
                 </p>
             </div>
         </div>
+
         <img id="middle_image" src="images/diamonds_pyramide_gelb.png" alt="Goldene Pyramide mit Diamanten" width="700px">
+        
         <div class="text-container">
             <div>
                 <p class="first-headline">DECOR DER ANTIKE ART</p>
@@ -65,12 +71,13 @@
         </div>
 
         <div id="selection_choice">
-            <img id= "yellow_pyramide" class="color_selection_img active_pyramide" src="images/pyramide_gold.png" alt="Goldene Pyramide">
-            <img id= "red_pyramide" class="color_selection_img" src="images/pyramide_red.png" alt="Rote Pyramide">
-            <img id= "green_pyramide" class="color_selection_img" src="images/pyramide_green.png" alt="Grüne Pyramide">
+            <div class="pyramid_all_div">
+                <div><img id= "yellow_pyramide" class="color_selection_img active_pyramide" src="images/pyramide_gold.png" alt="Goldene Pyramide"></div>
+                <div><img id= "red_pyramide" class="color_selection_img" src="images/pyramide_red.png" alt="Rote Pyramide"></div>
+                <div><img id= "green_pyramide" class="color_selection_img" src="images/pyramide_green.png" alt="Grüne Pyramide"></div>
+            </div>
             <div>
                 <p class="first-headline">HARIM PYRAMIDE</p>
-                
             </div>
             <div class="line">
                 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="2" viewBox="0 0 230 2">
@@ -89,20 +96,15 @@
             <div>
                 <button>IN DEN WARENKORB LEGEN</button>
             </div>
-
         </div>
-            
-
-        
-          
-
-
 
     </main> 
     
     <footer>
 
     </footer>
-    
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script> 
 </body>
 </html>

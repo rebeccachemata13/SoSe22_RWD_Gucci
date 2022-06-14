@@ -98,10 +98,10 @@ header{
     border: 3px solid transparent;
 }
 
-.color_selection_img:hover:not(#active_pyramide){
+/* .color_selection_img:hover:not(#active_pyramide){
     opacity: 0.8;
     cursor: pointer;
-}
+} */
 /* The container must be positioned relative: */
 .custom-select {
     margin-top: 20px;
@@ -189,12 +189,25 @@ header{
     cursor: pointer;
   }
 
+  .aufklapp_boxen{
+    margin:0;
+  }
+
+  .aufklapp_titel{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom:-14px;
+  }
+
   
 
-  .active_pyramide {
+  /* .active_pyramide {
       border: 3px solid black;
       pointer-events: none;
-  }
+  } */
 
 
 

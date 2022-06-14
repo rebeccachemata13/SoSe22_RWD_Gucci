@@ -29,6 +29,6 @@ function changeToYellow(){
 }
 
 
-green_pyramide.addEventListener("click",changeToGreen);
-red_pyramide.addEventListener("click",changeToRed);
-yellow_pyramide.addEventListener("click",changeToYellow);
+// green_pyramide.addEventListener("click",changeToGreen);
+// red_pyramide.addEventListener("click",changeToRed);
+// yellow_pyramide.addEventListener("click",changeToYellow);

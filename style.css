@@ -7,9 +7,8 @@
 
 body {
     text-align: center;
-    width: 100%;
-    margin: auto;
     font-family: Futura,Helvetica,Arial,sans-serif;
+    margin:auto;
 }
 
 .navbar{
@@ -83,7 +82,7 @@ body {
   display: inline;
 }
 
-  button {
+  .button {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #1B1B1B;
@@ -93,10 +92,10 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
   }
 
-  button:hover {
+  .button:hover:not(#nachObenLink) {
     background-color: #1b1b1bd8;
     cursor: pointer;
   }
@@ -124,6 +123,44 @@ body {
 
   .plus:hover{
     transform: rotate(180deg);
+  }
+
+  .scrollup{
+    top:0;
+    text-decoration: none;
+    color: #E7E7E7;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .scrollup:active{
+    color: #E7E7E7;
+  }
+
+  .scrollup:hover{
+    text-decoration: underline;
+  }
+
+  #footer_logo_div{
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+  #footer_logo_div img{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+  }
+
+  .Gucci_App{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+  }
+  #nachObenLink{
+    margin-bottom: 0;
+    margin-top: 0;
   }
  
   

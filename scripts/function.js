@@ -10,6 +10,8 @@ $(document).ready(function(){
     })
     
     $('.pyramid_all_div').slick({
+        arrows:false,
+        adaptiveHeight: true,
         centerMode: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -21,7 +23,7 @@ $(document).ready(function(){
 
      $('.color_selector_div').slick({
         dots: true,
-        arrows: true,
+        arrows: false,
       }
       );
 });

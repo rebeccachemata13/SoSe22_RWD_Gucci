@@ -28,7 +28,7 @@ function openMaterial(){
         
         infobox.id = "infotext";
         infobox.innerText= 
-        "Gucci Schmuck wird aus sorgfältig ausgewählten Materialien hergestellt.\nBitte gehen Sie sorgsam damit um, damit Sie lange Freude daran haben.\n Dieses Stück wurde entsprechend geltender internationaler Vorschriften aus hypoallergenen Materialien hergestellt.\n Pflegen Sie dieses Stück, indem Sie es mit einem weichen Tuch reinigen oder polieren und es einzeln aufbewahren.";
+        "Gucci Artikel werden aus sorgfältig ausgewählten Materialien hergestellt.\nBitte gehen Sie sorgsam damit um, damit Sie lange Freude daran haben.\n Dieses Stück wurde entsprechend geltender internationaler Vorschriften aus hypoallergenen Materialien hergestellt.\n Pflegen Sie dieses Stück, indem Sie es mit einem weichen Tuch reinigen oder polieren und es einzeln aufbewahren.";
         material_div.appendChild(infobox);
         infobox.style.textAlign="left";
         infobox.style.marginLeft="80px";

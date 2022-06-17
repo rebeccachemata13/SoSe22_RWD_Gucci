@@ -13,7 +13,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '30px',
           slidesToShow: 1
         }
       },
@@ -44,7 +44,7 @@ $(document).ready(function(){
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
+              centerPadding: '30px',
               slidesToShow: 2
             }
           },
@@ -53,7 +53,7 @@ $(document).ready(function(){
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
+              centerPadding: '20px',
               slidesToShow: 1
             }
           }

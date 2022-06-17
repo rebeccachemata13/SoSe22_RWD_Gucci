@@ -61,7 +61,8 @@ function declaringDots() {
     let dot2 = document.getElementById("slick-slide-control21");
     let dot3 = document.getElementById("slick-slide-control22");
     let produkt_material = document.createElement("img");
-    let produkt_info = document.createElement("p");
+    let produkt_info_1 = document.createElement("p");
+    let produkt_info_2 = document.createElement("p");
     let produkt_info_div = document.getElementById("produkt_info_div");
 
     function priceControllerRed(){
@@ -69,25 +70,34 @@ function declaringDots() {
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
 
-        produkt_info.innerHTML = "This is RED";
+        produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
+        produkt_info_2.innerHTML = "Die Harim Red Ruby besteht hauptsächlich aus roten Rubinen und soll mit ihren einzigartigen Rottönen das Rote Meer symbolisieren.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_material.src = "images/Rubin.jpg";
-        produkt_info_div.appendChild(produkt_info);
         produkt_info_div.appendChild(produkt_material);
+        produkt_info_div.appendChild(produkt_info_1);
+        produkt_info_div.appendChild(produkt_info_2);
      
 
-        produkt_info.style.textAlign="left";
-        produkt_info.style.marginLeft="80px";
-        produkt_info.style.marginRight="30px";
-        produkt_info.style.fontSize="16px";
+        produkt_info_1.style.textAlign="left";
+        produkt_info_1.style.marginLeft="80px";
+        produkt_info_1.style.marginRight="30px";
+        produkt_info_1.style.fontSize="16px";
+
+        produkt_info_2.style.textAlign="left";
+        produkt_info_2.style.marginLeft="80px";
+        produkt_info_2.style.marginRight="30px";
+        produkt_info_2.style.fontSize="16px";
     }
     function priceControllerGreen(){
         price.innerHTML="45 000 $";
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
 
-        produkt_info.innerHTML = "This is GREEN";
-        produkt_info_div.appendChild(produkt_info);
+        produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
+        produkt_info_2.innerHTML = "Die Harim Green Emerald besteht hauptsächlich aus grünen Smaragden und soll mit ihren einzigartigen Grüntönen die Vegetation um den Nil widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_info_div.appendChild(produkt_material);
+        produkt_info_div.appendChild(produkt_info_1);
+        produkt_info_div.appendChild(produkt_info_2);
         produkt_material.src = "images/Smaragd.jpg";
     }
     function priceControllerYellow(){
@@ -95,15 +105,24 @@ function declaringDots() {
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
 
-        produkt_info.innerHTML = "This is YELLOW";
+        produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
+        produkt_info_2.innerHTML = "Die Harim Yellow Saphire besteht hauptsächlich aus gelben Saphiren und soll mit ihren einzigartigen Gelbtönen die Sahara Wüste widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_material.src = "images/sapphire_gelb.jpg";
-        produkt_info_div.appendChild(produkt_info);
         produkt_info_div.appendChild(produkt_material);
+        produkt_info_div.appendChild(produkt_info_1);
+        produkt_info_div.appendChild(produkt_info_2);
+        
+        
 
-        produkt_info.style.textAlign="left";
-        produkt_info.style.marginLeft="80px";
-        produkt_info.style.marginRight="30px";
-        produkt_info.style.fontSize="16px";
+        produkt_info_1.style.textAlign="left";
+        produkt_info_1.style.marginLeft="80px";
+        produkt_info_1.style.marginRight="30px";
+        produkt_info_1.style.fontSize="16px";
+
+        produkt_info_2.style.textAlign="left";
+        produkt_info_2.style.marginLeft="80px";
+        produkt_info_2.style.marginRight="30px";
+        produkt_info_2.style.fontSize="16px";
     }
     
     dot1.addEventListener("click",priceControllerYellow);

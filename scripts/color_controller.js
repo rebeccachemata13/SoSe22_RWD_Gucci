@@ -21,7 +21,7 @@ function declaringDots() {
         produkt_name.classList.add("first-headline");
 
         produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
-        produkt_info_2.innerHTML = "Die Harim Red Ruby besteht hauptsächlich aus roten Rubinen und soll mit ihren einzigartigen Rottönen das Rote Meer symbolisieren.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
+        produkt_info_2.innerHTML = "Die Harim Red Ruby besteht hauptsächlich aus roten Rubinen und soll mit ihren einzigartigen Rottönen das Rote Meer symbolisieren.\nMit einer Größe von 10cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_material.src = "images/Rubin.jpg";
         produkt_info_div.appendChild(produkt_material);
         produkt_info_div.appendChild(produkt_info_1);
@@ -47,7 +47,7 @@ function declaringDots() {
         produkt_name.classList.add("first-headline");
 
         produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
-        produkt_info_2.innerHTML = "Die Harim Green Emerald besteht hauptsächlich aus grünen Smaragden und soll mit ihren einzigartigen Grüntönen die Vegetation um den Nil widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
+        produkt_info_2.innerHTML = "Die Harim Green Emerald besteht hauptsächlich aus grünen Smaragden und soll mit ihren einzigartigen Grüntönen die Vegetation um den Nil widerspiegeln.\nMit einer Größe von 10cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_info_div.appendChild(produkt_material);
         produkt_info_div.appendChild(produkt_info_1);
         produkt_info_div.appendChild(produkt_info_2);
@@ -62,7 +62,7 @@ function declaringDots() {
         produkt_name.classList.add("first-headline");
 
         produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
-        produkt_info_2.innerHTML = "Die Harim Yellow Sapphire besteht hauptsächlich aus gelben Saphiren und soll mit ihren einzigartigen Gelbtönen die Sahara Wüste widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
+        produkt_info_2.innerHTML = "Die Harim Yellow Sapphire besteht hauptsächlich aus gelben Saphiren und soll mit ihren einzigartigen Gelbtönen die Sahara Wüste widerspiegeln.\nMit einer Größe von 10cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_material.src = "images/sapphire_gelb.jpg";
         produkt_info_div.appendChild(produkt_material);
         produkt_info_div.appendChild(produkt_info_1);

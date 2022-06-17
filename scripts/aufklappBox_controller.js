@@ -25,11 +25,12 @@ function openMaterial(){
     if(plus_material.innerHTML=="+"){
         plus_material.innerHTML= "−";
         
+        infobox.id = "infotext";
         infobox.innerText= 
         "Gucci Schmuck wird aus sorgfältig ausgewählten Materialien hergestellt.\nBitte gehen Sie sorgsam damit um, damit Sie lange Freude daran haben.\n Dieses Stück wurde entsprechend geltender internationaler Vorschriften aus hypoallergenen Materialien hergestellt.\n Pflegen Sie dieses Stück, indem Sie es mit einem weichen Tuch reinigen oder polieren und es einzeln aufbewahren.";
         material_div.appendChild(infobox);
         infobox.style.textAlign="left";
-        infobox.style.marginLeft="150px";
+        infobox.style.marginLeft="80px";
         infobox.style.marginRight="150px";
         infobox.style.fontSize="16px";
     } else {
@@ -70,7 +71,7 @@ function openGeschenk(){
         geschenk_div.appendChild(infobox_geschenk);
 
         infobox_geschenk.style.textAlign="left";
-        infobox_geschenk.style.marginLeft="150px";
+        infobox_geschenk.style.marginLeft="80px";
         infobox_geschenk.style.marginRight="150px";
         infobox_geschenk.style.fontSize="16px";
     
@@ -97,12 +98,12 @@ function openZahlen() {
         zahlen_div.appendChild(zahlen_info_2);
 
         zahlen_info_1.style.textAlign="left";
-        zahlen_info_1.style.marginLeft="150px";
+        zahlen_info_1.style.marginLeft="80px";
         zahlen_info_1.style.marginRight="150px";
         zahlen_info_1.style.fontSize="16px";
 
         zahlen_info_2.style.textAlign="left";
-        zahlen_info_2.style.marginLeft="150px";
+        zahlen_info_2.style.marginLeft="80px";
         zahlen_info_2.style.marginRight="150px";
         zahlen_info_2.style.fontSize="16px";
         

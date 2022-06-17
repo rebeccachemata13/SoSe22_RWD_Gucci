@@ -55,14 +55,14 @@ function declaringDots() {
     }
     function priceControllerYellow(){
         price.innerHTML="25 000 $";
-        produkt_name.innerHTML = "HARIM YELLOW SAPHIRE";
+        produkt_name.innerHTML = "HARIM YELLOW SAPPHIRE";
         product_name_div.appendChild(produkt_name);
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
         produkt_name.classList.add("first-headline");
 
         produkt_info_1.innerHTML = "Die Gucci Egypt Parade Kollektion setzt sich auf zeitgemäße Weise mit dem alten Ägypten außeinander und modernisiert die antike Art.\nErstellt aus den kostbarsten glänzendsten Edelsteinen, sind die Gucci Harim Pyramiden ein Hingucker in jeder Umgebung.";
-        produkt_info_2.innerHTML = "Die Harim Yellow Saphire besteht hauptsächlich aus gelben Saphiren und soll mit ihren einzigartigen Gelbtönen die Sahara Wüste widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
+        produkt_info_2.innerHTML = "Die Harim Yellow Sapphire besteht hauptsächlich aus gelben Saphiren und soll mit ihren einzigartigen Gelbtönen die Sahara Wüste widerspiegeln.\nMit einer Größe von 50cm bringt sie jedem Besitzer ein Stück ägyptische Kultur in das Haus.";
         produkt_material.src = "images/sapphire_gelb.jpg";
         produkt_info_div.appendChild(produkt_material);
         produkt_info_div.appendChild(produkt_info_1);

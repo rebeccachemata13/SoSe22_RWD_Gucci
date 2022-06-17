@@ -199,5 +199,28 @@ body {
 
   }
 
+  @media screen and (max-width:600px){
+    #logo_img{
+      width:110px;
+      margin-left: -55px;
+    }  
+
+    .navbar{
+      height: 62px;
+    }
+
+    .aufklapp_boxen{
+      margin-right: 30px;
+    }
+
+    
+    #versand_div img{
+      margin-top: 10px;
+      margin-left: 50px;
+      text-align: left;
+      width: 400px;
+    }
+  }
+
 
 

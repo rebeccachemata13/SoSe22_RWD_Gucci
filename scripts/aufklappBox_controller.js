@@ -31,7 +31,7 @@ function openMaterial(){
         material_div.appendChild(infobox);
         infobox.style.textAlign="left";
         infobox.style.marginLeft="80px";
-        infobox.style.marginRight="150px";
+        infobox.style.marginRight="30px";
         infobox.style.fontSize="16px";
     } else {
     plus_material.innerHTML= "+";
@@ -72,7 +72,7 @@ function openGeschenk(){
 
         infobox_geschenk.style.textAlign="left";
         infobox_geschenk.style.marginLeft="80px";
-        infobox_geschenk.style.marginRight="150px";
+        infobox_geschenk.style.marginRight="30px";
         infobox_geschenk.style.fontSize="16px";
     
     } else {
@@ -99,12 +99,12 @@ function openZahlen() {
 
         zahlen_info_1.style.textAlign="left";
         zahlen_info_1.style.marginLeft="80px";
-        zahlen_info_1.style.marginRight="150px";
+        zahlen_info_1.style.marginRight="30px";
         zahlen_info_1.style.fontSize="16px";
 
         zahlen_info_2.style.textAlign="left";
         zahlen_info_2.style.marginLeft="80px";
-        zahlen_info_2.style.marginRight="150px";
+        zahlen_info_2.style.marginRight="30px";
         zahlen_info_2.style.fontSize="16px";
         
     } else {

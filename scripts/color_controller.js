@@ -77,7 +77,7 @@ function declaringDots() {
 
         produkt_info.style.textAlign="left";
         produkt_info.style.marginLeft="80px";
-        produkt_info.style.marginRight="150px";
+        produkt_info.style.marginRight="30px";
         produkt_info.style.fontSize="16px";
     }
     function priceControllerGreen(){
@@ -102,7 +102,7 @@ function declaringDots() {
 
         produkt_info.style.textAlign="left";
         produkt_info.style.marginLeft="80px";
-        produkt_info.style.marginRight="150px";
+        produkt_info.style.marginRight="30px";
         produkt_info.style.fontSize="16px";
     }
     

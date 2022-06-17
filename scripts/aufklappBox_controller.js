@@ -15,7 +15,8 @@ let versand_tabelle = document.createElement("img");
 let geschenk_packung = document.createElement("img");
 let oko_packung = document.createElement("img");
 let infobox_geschenk = document.createElement("p");
-let zahlungsmethoden = document.createElement("img");
+let zahlungsmethoden_1 = document.createElement("img");
+let zahlungsmethoden_2 = document.createElement("img");
 let zahlen_info_1 = document.createElement("p");
 let zahlen_info_2 = document.createElement("p");
 
@@ -41,23 +42,6 @@ function openMaterial(){
 }
 
 plus_material.addEventListener("click", openMaterial);
-
-function openVersand(){
-    if(plus_versand.innerHTML=="+"){
-        plus_versand.innerHTML= "−";
-        
-        versand_tabelle.src="images/Tabelle_Versand.png"
-        versand_div.appendChild(versand_tabelle);
-        
-
-    } else {
-    plus_versand.innerHTML= "+";
-    versand_tabelle.remove();
-    }
-    plus_versand.style.fontWeight = "900";
-}
-
-plus_versand.addEventListener("click", openVersand);
 
 function openGeschenk(){
     if(plus_geschenk.innerHTML =="+"){
@@ -90,11 +74,13 @@ function openZahlen() {
     if(plus_zahlen.innerHTML == "+"){
         plus_zahlen.innerHTML="−";
 
-        zahlungsmethoden.src = "images/zahlungsmethoden.png";
+        zahlungsmethoden_1.src = "images/zahlungsmethoden_1.png";
+        zahlungsmethoden_2.src = "images/zahlungsmethoden_2.png";
         zahlen_info_1.innerHTML = "Gucci akzeptiert die folgenden Zahlungsweisen für Online-Einkäufe:"
         zahlen_info_2.innerHTML = "Bitte beachten Sie, dass bei Zahlung mit Kreditkarte Ihre Rechnungsadresse mit der Adresse auf Ihrer Kreditkartenabrechnung übereinstimmen muss."
         zahlen_div.appendChild(zahlen_info_1);
-        zahlen_div.appendChild(zahlungsmethoden);
+        zahlen_div.appendChild(zahlungsmethoden_1);
+        zahlen_div.appendChild(zahlungsmethoden_2);
         zahlen_div.appendChild(zahlen_info_2);
 
         zahlen_info_1.style.textAlign="left";
@@ -109,7 +95,8 @@ function openZahlen() {
         
     } else {
         plus_zahlen.innerHTML="+";
-        zahlungsmethoden.remove();
+        zahlungsmethoden_1.remove();
+        zahlungsmethoden_2.remove();
         zahlen_info_1.remove();
         zahlen_info_2.remove();
         }

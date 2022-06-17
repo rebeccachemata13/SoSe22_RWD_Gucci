@@ -222,5 +222,19 @@ body {
     }
   }
 
+  @media screen and (max-width: 500px){
+    .middle_image img{
+      width: 350px;
+    }
+
+    .color_selection_img{
+      width: 270px;
+    }
+
+    .selection_choice img {
+      width: 250px;
+    }
+  }
+
 
 

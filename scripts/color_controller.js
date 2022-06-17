@@ -57,25 +57,53 @@ console.log("dieses Script läuft");
 
 
 function declaringDots() {
-    priceControllerYellow();
     let dot1 = document.getElementById("slick-slide-control20");
     let dot2 = document.getElementById("slick-slide-control21");
     let dot3 = document.getElementById("slick-slide-control22");
+    let produkt_material = document.createElement("img");
+    let produkt_info = document.createElement("p");
+    let produkt_info_div = document.getElementById("produkt_info_div");
 
     function priceControllerRed(){
         price.innerHTML="30 000 $";
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
+
+        produkt_info.innerHTML = "This is RED";
+        produkt_material.src = "images/Rubin.jpg";
+        produkt_info_div.appendChild(produkt_info);
+        produkt_info_div.appendChild(produkt_material);
+     
+
+        produkt_info.style.textAlign="left";
+        produkt_info.style.marginLeft="150px";
+        produkt_info.style.marginRight="150px";
+        produkt_info.style.fontSize="16px";
     }
     function priceControllerGreen(){
         price.innerHTML="45 000 $";
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
+
+        produkt_info.innerHTML = "This is GREEN";
+        produkt_info_div.appendChild(produkt_info);
+        produkt_info_div.appendChild(produkt_material);
+        produkt_material.src = "images/Smaragd.jpg";
     }
     function priceControllerYellow(){
         price.innerHTML="25 000 $";
         price_div_2.appendChild(price);
         price.classList.add("second-headline");
+
+        produkt_info.innerHTML = "This is YELLOW";
+        produkt_material.src = "images/sapphire_gelb.jpg";
+        produkt_info_div.appendChild(produkt_info);
+        produkt_info_div.appendChild(produkt_material);
+
+        produkt_info.style.textAlign="left";
+        produkt_info.style.marginLeft="150px";
+        produkt_info.style.marginRight="150px";
+        produkt_info.style.fontSize="16px";
     }
     
     dot1.addEventListener("click",priceControllerYellow);

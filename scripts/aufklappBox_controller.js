@@ -2,11 +2,13 @@ let plus_material = document.getElementById("plus_material");
 let plus_versand = document.getElementById("plus_versand");
 let plus_geschenk = document.getElementById("plus_geschenk");
 let plus_zahlen = document.getElementById("plus_zahlen");
+let plus_produkt = document.getElementById("plus_produkt");
 
 let material_div = document.getElementById("material_div");
 let versand_div = document.getElementById("versand_div");
 let geschenk_div = document.getElementById("geschenk_div");
 let zahlen_div = document.getElementById("zahlen_div");
+let produkt_div = document.getElementById("produkt_div");
 
 let infobox = document.createElement("p");
 let versand_tabelle = document.createElement("img");
@@ -16,6 +18,8 @@ let infobox_geschenk = document.createElement("p");
 let zahlungsmethoden = document.createElement("img");
 let zahlen_info_1 = document.createElement("p");
 let zahlen_info_2 = document.createElement("p");
+
+
 
 function openMaterial(){
     if(plus_material.innerHTML=="+"){
